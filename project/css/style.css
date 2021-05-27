@@ -1,0 +1,1093 @@
+body{
+	margin: 0;
+}
+@font-face {
+    font-family: PostNoBillsJaffna; 
+    src: url(../fonts/PostNoBillsJaffna-Bold.ttf);
+ }
+
+.info_head{
+	height:44px;
+	background-color: black;
+}
+
+.info_head_data-time{
+	float: left;
+	margin-left: 21%;
+	margin-top: 10px;
+}
+
+.info_head_log-sign{
+	float: right;
+	margin-right: 22%;
+}
+
+.info_head_log-sign__photo{
+	margin-top: 10px;
+}
+.info_head_data-time__text{
+	color: #969696;
+	font-size: 12px;
+	line-height: 16px;
+	margin-left: 15px;
+	font-family: 'PT Sans';
+}
+
+.info_head_log-sign__text{
+	color: #969696;
+	font-size: 12px;
+	line-height: 16px;
+	font-family: 'PT Sans';
+}
+.menu{
+	height: 80px;
+	background-color: #0F0F0F;
+	z-index:999;
+}
+.menu-logo{
+	float: left;
+	margin-left: 21%;
+	margin-top: 15px;
+	
+}
+.menu-burger{
+	float: right;
+	display: none;
+	position: relative;
+	top: 40px;
+	right: 59px;
+}
+.menuburger-line{
+	display: block;
+	width: 50px;
+	height: 2px;
+	background-color: white;
+}
+.menuburger-line::before{
+	display: block;
+	position:relative;
+	content: '';
+	top: 10px;
+	background-color: white;
+	width: 50px;
+	height: 2px;
+}
+.menuburger-line::after{
+	display: block;
+	position:relative;
+	content: '';
+	top: -10px;
+	width: 50px;
+	height: 2px;
+	background-color: white;
+}
+.menu-logo__text{
+	color: white;
+	font-size: 36px;
+	font-family: PostNoBillsJaffna;
+	font-weight: bold;
+}
+
+
+.links{
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 47px;
+	box-sizing: padding-box;
+	padding-top: 31px;
+}
+.menu-links{
+	float: right;
+	margin-right: 22%;
+	height: 80px;
+	margin-left: 0;
+
+}
+.links>a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-family: 'PT Sans';
+}
+.links:hover{
+	background-color: #1F1F1F;
+	transition: all 800ms ease;
+}
+.introdaction{
+	height: 650px;
+	background-image: url('../img/Rectangle 3.png');
+	background-position: center center;
+	box-sizing: padding-box;
+	padding-top: 160px;
+}
+.introdaction-logo{
+	width: 320px;
+	height: 320px;
+	margin-left: 39%;
+	border: 4px solid white;
+	padding-top: 93px;
+	box-sizing: border-box;
+}
+.introdaction-logo__text{
+	text-align: center;
+	height: 66px;
+	margin-top: 0px;
+	font-family: PostNoBillsJaffna;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+	font-size: 64px;
+}
+.introdaction-logo__subtext{
+	text-align: center;
+	font-size: 22px;
+	color: white;
+	font-family: 'PT Sans';
+}
+.introdaction-logo__line{
+	width: 179px;
+	margin-top: 0px;
+}
+.introdaction__subtext{
+	margin-top: 80px;
+	text-align:center;
+	margin-left: 28%;
+	width: 45%;
+	font-size: 16px;
+	color: white;
+	font-family: 'PT Sans';
+	text-transform: uppercase;
+
+}
+.season2020{
+	height: 730px;
+	background-color: black;
+}
+.season2020-clock{
+	float: left;
+	width: 55%;
+	padding-top: 5%;
+}
+.season2020-photo{
+	float: left;
+	width: 45%;
+	height: 100%;
+	background-image: url('../img/Rectangle 8.png');
+	background-size: cover;
+	padding-top: 21%;
+	box-sizing: border-box;
+}
+
+.season2020-clock__headtext{
+	color: white;
+	margin-top: 0px;
+	font-size: 36px;
+	font-family: Playfair Display;
+	font-weight: bold;
+	margin-left: 32%;
+
+}
+
+.seson2020-photo-info__text-colection{
+	margin-top: 0px;
+	color: white;
+}
+.season2020-clock__line{
+	width: 150px;
+	margin-left: 38%;
+	margin-top: 4%;
+}
+.season2020-clock-list{
+	margin-top: 4%;
+}
+.season2020-clock-list-elem__info{
+	float: left;
+	box-sizing: border-box;
+	width: 27%;
+	margin-left: 4.8%;
+	transition: 1s;
+	
+}
+.season2020-clock-list-elem__info:hover{
+	transform: scale(1.1);
+}
+.season2020-clock-list-elem{
+	padding-top: 10%;
+	padding-bottom: 10%;
+	background-color: #191B1C;
+
+}
+.season2020-clock-list-elem__photo{
+	width: 100%;
+}
+.season2020-clock-list-elem__text{
+	font-size: 18px;
+	color: white;
+	font-family: Playfair Display;
+	font-weight: 400;
+}
+.season2020-clock-list-elem__subtext{
+	font-size: 16px;
+	color: white;
+	font-family: Playfair Display;
+	font-weight: 400;
+}
+.season2020-photo-info{
+	text-align: center;
+}
+.seson2020-photo-info__text-colection{
+	font-family: Playfair Display;
+	font-weight: 700;
+	font-size: 36px;
+}
+.season2020-photo-info__line{
+	width: 33%;
+	margin-top:4%;
+	margin-bottom: 9%;
+}
+.season2020-photo-info__links{
+	padding: 10px 35px 10px 35px;
+	border: 2px solid white;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-family: Playfair Display;
+	font-weight: 400;
+}
+.season2020-photo-info__links:hover{
+	background-color: white;
+	color:black;
+}
+.season2018{
+	height: 600px;
+	background-color:black;
+	margin-top: -2px;
+}
+.season2018-photo{
+	float: left;
+	width: 48%;
+	height: 100%;
+	background-image:url('../img/Rectangle 9.png');
+	background-position: center center;
+	background-size:cover;
+}
+.season2018-photo-down{
+	display: none;
+	float: left;
+	width: 48%;
+	height: 100%;
+	background-image:url('../img/Rectangle 9.png');
+	background-position: center center;
+	background-size:cover;
+}
+.season2018-info{
+	text-align: center;
+	padding-top: 5%;
+}
+.season2018-info__headtext{
+	margin-top: 0;
+	color: white;
+	font-size: 36px;
+	font-family: Playfair Display;
+	font-weight: 400;
+}
+.season2018-info__line{
+	width: 120px;
+}
+.season2018-info__subtext{
+	display: inline-block;
+	color: white;
+	font-family: PT Sans;
+	font-weight: 400;
+	font-size: 14px;
+	width: 23%;
+	margin-bottom: 7%;
+
+}
+.season2018-info__button{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	font-family: PT Sans;
+	font-weight: 400;
+	font-style: 18px;
+	border: 2px solid white;
+	padding: 12px 28px 12px 28px;
+}
+.season2018-info__button:hover{
+	background-color: white;
+	color:black;
+}
+.new-clock{
+	height: 1300px;
+	padding-top: 120px;
+	text-align: center;
+	background-color: black;
+	margin-top: -2px;
+}
+.new-clock__headtext{
+	color: white;
+	margin-top:0;
+	font-family: Playfair Display;
+	font-weight:400;
+	font-size: 36px;
+}
+.new-clock__line{
+	margin-top: 40px;
+	width: 120px;
+}
+.new-clock-list-first{
+	display: inline-block;
+	width: 80%;
+	margin-left: 8%;
+	margin-top: 5%;
+}
+.new-clock-list-first__elem{
+	margin-left: 3%;
+	width: 18%;
+	list-style-type: none;
+	float: left;
+	text-align: left;
+	transition: 0.5s;
+}
+.new-clock-list-first__elem:hover{
+	transform: scale(1.1);
+}
+.new-clock-list-first__bg-photo{
+	background-color: #191B1C;
+	padding: 15% 1%;
+}
+.new-clock-list-first__photo{
+	width: 100%;
+}
+.new-clock-list-second{
+	display: inline-block;
+	width: 80%;
+	margin-left: 8%;
+	margin-top: 5%;
+	clear: left;
+}
+.brends{
+	height: 370px;
+	background-color: #0F0F0F;
+	text-align: center;
+	padding-top: 60px;
+}
+.brends__headtext{
+	margin-top: 0;
+	color: white;
+	text-transform: uppercase;
+	font-family: Playfair Display;
+	font-size: 36px;
+	font-weight: 700;
+}
+.brends__line{
+	width: 120px;
+	margin-top: 40px;
+}
+.brends__list{
+	display: inline-block;
+	margin-top: 40px;
+	margin-left: 9%;
+	width: 85%;
+}
+.brends-list__elem{
+	float: left;
+	list-style-type: none;
+	margin-right: 30px;
+	width: 20%;
+}
+.brends-list-elem__photo{
+	width: 100%;
+}
+footer{
+	height: 250px;
+	background-image: url('../img/Rectangle 15.png');
+	background-position: center;
+	padding-top: 80px;
+	background-size: cover;
+}
+.about-shop{
+	float: left;
+	width: 22%;
+	color: white;
+	text-align: left;
+	margin-left: 13%;
+}
+.about-shop__headtext{
+	font-size: 24px;
+	font-family: Playfair Display;
+	font-weight: 400;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+.about-shop__subtext{
+	font-size: 14px;
+	font-family: PT Sans;
+	font-weight:400;
+	margin-top: 40px;
+}
+.categories{
+	float: left;
+	width: 20%;
+	margin-left: 30px;
+	color: white;
+	text-align: left;
+}
+.categorise__headtext{
+	font-size: 24px;
+	font-family: Playfair Display;
+	font-weight: 400;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+.categories__button{
+	margin-top: 33px;
+}
+
+.categories-button__link{
+	display: inline-block;
+	color:white;
+	font-size: 14px;
+	text-decoration: none;
+	font-family: PT Sans;
+	font-weight:400;
+	background-color: #0F0F0F;
+	box-sizing: padding-box;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+.categories-button__link:hover{
+	background-color: #0f0f0f8c;
+}
+
+.mailing{
+	float: left;
+	width: 25%;
+	margin-left: 1%;
+	color: white;
+}
+
+.mailing__headtext{
+	text-transform: uppercase;
+	font-size: 24px;
+	font-family: Playfair Display;
+	font-weight: 400;
+	margin-top: 0;
+}
+.mailing__subtext{
+	font-size: 14px;
+	font-family: PT Sans;
+	font-weight:400;
+	margin-top: 40px;
+}
+
+.mailing-form__input{
+	width: 200px;
+	height: 40px;
+	padding-left: 10px;
+	background-color: rgba(255, 255, 255, 0.4);
+	outline:none;
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.8);
+	margin-right:0;
+}
+.mailing-form__input::-webkit-input-placeholder { color: rgba(255, 255, 255, 0.6); }
+.mailing-form__button{
+	height: 44px;
+	width: 140px;
+	background-color: #0F0F0F;
+	color: white;
+	border: 0;
+	margin-left: 0;
+}
+.mailing-form__button:hover{
+	background-color: #0f0f0f8c;
+}
+.active_menu{
+	height: 400px;
+}
+.menu-links-burger{
+	display:none;
+}
+.season2020-clock-list-slider{
+	display: none !important;
+}
+.brends__list-slider{
+	display: none !important;
+}
+.new-clock-list-slider{
+	display: none !important;
+}
+@media screen and (min-width: 1700px) and (max-width: 1920px){
+	.introdaction-logo{
+		margin-left: 42%;
+	}
+	.season2020{
+		height: 750px;
+	}
+	 .season2020-clock-list-slider{
+		display: none;
+	}
+}
+@media screen and (min-width: 1601px) and (max-width: 1701px){
+	.introdaction-logo{
+		margin-left: 42%;
+	}
+	.season2020{
+		height: 650px;
+	}
+	.new-clock{
+		height: 1150px;
+	}
+	.categories{
+		width: 24%;
+	}
+}
+@media screen and (min-width: 1350px) and (max-width: 1600px){
+	.menu-links{
+		margin-right: 17%;
+	}
+	.info_head_log-sign{
+		margin-right: 17%;
+	}
+	.menu-logo{
+		margin-left: 16%;
+	}
+	.info_head_data-time{
+		margin-left: 16%;
+	}
+	.season2020{
+		height: 630px;
+	}
+	.season2020-photo{
+		padding-top: 22%;
+	}
+	.season2018{
+		height: 550px;
+	}
+	.categories{
+		width: 22%;
+	}
+	.new-clock{
+		height: 1050px;
+	}
+	.categories{
+		width: 24%;
+	}
+	.mailing{
+		width: 30%;
+	}
+}
+@media screen and (min-width: 1301px) and (max-width: 1350px){
+	.menu-links{
+		margin-right: 17%;
+	}
+	.info_head_log-sign{
+		margin-right: 17%;
+	}
+	.menu-logo{
+		margin-left: 16%;
+	}
+	.info_head_data-time{
+		margin-left: 16%;
+	}
+	.season2020{
+		height: 600px;
+	}
+	.season2020-photo{
+		padding-top: 22%;
+	}
+	.season2018{
+		height: 550px;
+	}
+	footer{
+		height: 290px;
+	}
+	.categories{
+		width: 25%;
+	}
+	.new-clock{
+		height: 950px;
+	}
+	.brends{
+		height: 300px;
+	}
+	.mailing{
+		width: 30%;
+	}
+	.about-shop{
+		margin-left: 10%;
+	}
+
+}
+@media screen and (min-width: 1190px) and (max-width: 1300px){
+	.menu-links{
+		margin-right: 12%;
+	}
+	.info_head_log-sign{
+		margin-right: 12%;
+	}
+	.menu-logo{
+		margin-left: 11%;
+	}
+	.info_head_data-time{
+		margin-left: 11%;
+	}
+	.introdaction-logo{
+		margin-left: 37%;
+	}
+	.season2020{
+		height: 550px;
+	}
+	.season2020-photo{
+		padding-top: 23%;
+	}
+	.season2018{
+		height: 500px;
+	}
+	.season2018-info__subtext{
+		margin-bottom: 4%;
+		width: 26%;
+	}
+	.new-clock{
+		height: 940px;
+	}
+	.brends{
+		height: 300px;
+	}
+	footer{
+		height: 290px;
+	}
+	.categories{
+		width: 26.5%;
+	}
+	.mailing{
+		width: 30%;
+	}
+	.about-shop{
+		margin-left: 10%;
+	}
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1190px){
+	.menu-links{
+		margin-right: 12%;
+	}
+	.info_head_log-sign{
+		margin-right: 12%;
+	}
+	.menu-logo{
+		margin-left: 11%;
+	}
+	.info_head_data-time{
+		margin-left: 11%;
+	}
+	.introdaction-logo{
+		margin-left: 37%;
+	}
+	.season2020{
+		height: 500px;
+	}
+	.season2020-photo{
+		padding-top: 23%;
+	}
+	.season2018{
+		height: 500px;
+	}
+	.season2018-info__subtext{
+		margin-bottom: 4%;
+		width: 26%;
+	}
+	
+	.new-clock{
+		height: 900px;
+	}
+
+	.brends{
+		height: 300px;
+	}
+	footer{
+		height: 290px;
+	}
+	.categories{
+		width: 29%;
+	}
+	.mailing{
+		width: 33%;
+	}
+	.about-shop{
+		margin-left: 6%;
+		width: 24%;
+	}
+}
+@media screen and (min-width: 1024px) and (max-width: 1100px){
+	.menu-links{
+		margin-right: 10%;
+	}
+	.info_head_log-sign{
+		margin-right: 10%;
+	}
+	.menu-logo{
+		margin-left: 9%;
+	}
+	.info_head_data-time{
+		margin-left: 9%;
+	}
+	.introdaction-logo{
+		margin-left: 35%;
+	}
+	.season2020{
+		height: 480px;
+	}
+
+	.season2020-photo{
+		padding-top: 25%;
+	}
+	.season2018{
+		height: 500px;
+	}
+	.season2018-info__subtext{
+		margin-bottom: 4%;
+		width: 30%;
+	}
+	.new-clock{
+		height: 860px;
+	}
+	.brends{
+		height: 300px;
+	}
+	footer{
+		height: 290px;
+	}
+	.categories{
+		width: 31%;
+	}
+	.mailing{
+		width: 34%;
+	}
+	.about-shop{
+		margin-left: 4%;
+		width: 25%;
+	}
+	.mailing-form__input{
+		width: 180px;
+	}
+}
+@media screen and (min-width: 300px) and (max-width: 1024px){
+	.menu-burger{
+		display: block;
+	}
+	header{
+		position: fixed;
+		width: 100%;
+	}
+	.info_head{
+		display: none;
+	}
+	.menu-links{
+		display: none;
+	}
+	.menu.active_menu > .menu-links-burger{
+		display: block;
+		float: right;
+		margin-top: 70px;
+	}
+	.menu.active_menu > .menu-links-burger > .links-burger{
+		text-align: right;
+		color: white;
+		text-decoration: none;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.menu.active_menu > .menu-links-burger > .links-burger > a{
+		color: white;
+		text-decoration: none;
+		font-size: 20px;
+		text-transform: uppercase;
+		font-family: 'PT Sans';
+	}
+	.menu.active_menu > .menu-links-burger > .links-burger > a > img{
+		width: 7%;
+	}
+	.menu-logo{
+		margin-left: 5%;
+	}
+	.info_head_data-time{
+		float: right;
+		margin-left: 0;
+	}
+	.menu.active_menu > .menu-links-burger > .links-burger:hover{
+		background-color: #1F1F1F;;
+	}
+	.introdaction-logo{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.season2020{
+		height: 1100px;
+	}
+	.season2020-clock__line{
+		margin-right:auto;
+		margin-left:auto;
+	}
+		
+	.season2020-clock-list{
+		display: none;
+	}
+	.season2020-clock{
+		width: 100%;
+		height: 550px;
+	}
+	.season2020-photo{
+		width: 100%;
+		height: 500px;
+		padding-top: 15%;
+	}
+	.season2018{
+    	height: 1050px;
+	}
+	.season2018-photo{
+		display: none;		
+	}
+	.season2018-photo-down{
+		display: block;
+		height: 500px;
+		width: 100%;
+	}
+	.season2018-info{
+		float: left;
+		width: 100%;
+		height: 450px;
+	}
+	.season2018-info__subtext{
+		width: 50%;
+	}
+	footer{
+		height: 600px;
+		text-align: center;
+	}
+	.about-shop{
+		width: 70%;
+		text-align: center;
+	}
+	.categories{
+		width: 70%;
+		text-align: center;
+		margin-left:13%;
+		margin-top: 30px;
+	}
+	.mailing{
+		width: 70%;
+		margin-top: 30px;
+		margin-left: 13%;
+	}
+	.brends__list{
+		display: none;
+	}
+	.new-clock{
+		height: 700px;
+	}
+	.new-clock-list-first{
+		display: none;
+	}
+	.new-clock-list-second{
+		display:none;
+	}
+	.season2020-clock{
+		text-align: center;
+		height: 640px;
+	}
+	.season2020-clock__headtext{
+		margin-left: 0;
+	}
+	.season2020-clock-list-slider{
+		display: block !important;
+		width: 60%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 80px;
+	}
+	.season2020-clock-list-elem__info{
+		width: 100%;
+		margin-left: 10px;
+		text-align: center;
+	}
+	.new-clock-list-slider{
+		display: block !important;
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 80px;
+	}
+	.brends__list-slider{
+		margin-right: auto;
+		margin-left: auto;
+		display: block !important;
+		width: 70%;
+	}
+	.brends{
+		height: 250px;
+	}
+	.season2020-clock-list-elem__info:hover{
+		transform: scale(1);
+	}
+	.new-clock-list-first__elem:hover{
+	transform: scale(1);
+	}
+}
+@media screen and (min-width: 450px) and (max-width: 700px){
+	.introdaction__subtext{
+		width: 70%;
+		margin-left: 15%;
+	}
+	.season2020-photo{
+		padding-top: 30%;
+	}
+	.season2020-clock{
+		height: 500px;
+	}
+	.season2020-clock-list-slider{
+		width: 60%;
+	}
+	.season2018-info__subtext{
+		width: 70%;
+		margin-bottom: 60px;
+	}
+	.new-clock{
+		padding-top: 10%;
+		height: 550px;
+	}
+	.new-clock-list-slider{
+		width: 70%;
+	}
+	.brends__list-slider{
+		width: 60%;
+	}
+	.brends{
+		height: 300px;
+	}
+}
+@media screen and (min-width: 300px) and (max-width: 541px){
+	.menu-logo{
+		margin-left: 3%;
+	}
+	.menu-burger{
+		right: 20px;
+	}
+	.menu.active_menu > .menu-links-burger{
+		width: 50%;
+		margin-right: -30px;
+	}
+	.menu.active_menu > .menu-links-burger > .links-burger > a{
+		font-size: 15px;
+	}
+	.season2020-clock-list-slider{
+		width: 50%;
+		margin-top: 50px;
+	}
+	.season2020-clock-list-slider{
+		width: 45%;
+	}
+	.new-clock-list-slider{
+		width: 60%;
+	}
+	.new-clock{
+		padding-top: 0%;
+		height: 680px;
+	}
+	footer{
+		height: 700px;
+	}
+	.about-shop__subtext{
+		width: 100%;
+	}
+	.mailing-form__input{
+		width: 160px;
+	}
+	.mailing-form__button{
+		width: 120px;
+	}
+
+}
+@media screen and (min-width: 300px) and (max-width: 450px){
+	.introdaction-logo{
+		width: 250px;
+		height: 250px;
+		padding-top: 55px;
+	}
+	.introdaction__subtext{
+		width: 80%;
+		margin-left: 10%;
+		font-size: 14px;
+	}
+	.season2020{
+		height: 1000px;
+	}
+	.season2020-clock{
+		height: 450px;
+	}
+	.season2020-clock-list-slider{
+		width: 45%;
+	}
+	.season2020-photo{
+		padding-top: 40%;
+	}
+	.season2020-clock__headtext{
+		font-size: 28px;
+	}
+	.season2018-info__subtext{
+		width: 70%;
+		margin-bottom: 60px;
+	}
+	.season2018-info__headtext{
+		font-size: 25px;
+	}
+	.season2018-info__subtext{
+		font-size: 13px;
+	}
+	.new-clock{
+		padding-top: 0;
+		height:620px;
+	}
+	.new-clock__headtext{
+		font-size: 28px;
+	}
+	.new-clock-list-slider{
+		width: 70%;
+	}
+	.brends__headtext{
+		font-size: 28px;
+	}
+	.categories__button{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	footer{
+		height: 850px;
+	}
+	.mailing-form__input{
+		width: 90%;
+	}
+	.mailing-form__button{
+		width: 95%;
+		margin-top: 10px;
+	}
+}
+@media screen and (min-width: 300px) and (max-width: 380px){
+	.season2020-clock-list-slider{
+		width: 60%;
+	}
+	.season2020-clock{
+		height: 460px;
+	}
+	footer{
+		height: 910px;
+	}
+}
